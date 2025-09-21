@@ -51,7 +51,7 @@ public class Main {
 
         // Дзеркальне відображення відносно осі X
         for (int i = 0; i < m; i++) {
-            points[i][1] = -points[i][1];
+            points[i][i] = -points[i][1];
         }
 
         System.out.println("Координати після віддзеркалення відносно осі X:");
