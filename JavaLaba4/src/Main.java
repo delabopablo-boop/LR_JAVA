@@ -12,7 +12,7 @@ class Square {
     public Square() {
         this.side = 1.0;
         this.x = 0.0;
-        this.y = 0.0;
+        this.y = 0.;
     }
 
     // Конструктор з параметрами
